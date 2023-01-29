@@ -57,7 +57,7 @@ struct ContentView: View {
                 }))
                 .offset(self.size)
             }
-        }
+        }.offset(x: 25, y: 250)
         .animation(.spring())
     }
 }
